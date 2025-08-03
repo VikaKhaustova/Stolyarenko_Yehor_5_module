@@ -99,58 +99,39 @@ footer {
     color: #850AE5;
     font-weight: bolder;
 }
-.socials{
-    position:fixed;
-    right: -10px;
-    top: 230px;
-    background-color: green;
-    border-radius: 10px;
-    width: 100px;
-    height: 390px;
-    padding: 20px;
-    border: 3px groove  navy; 
+aside {
+background-color:darkblue;
+width: 100px;
+height: 200px;
+position:fixed;
+top: 230px;
+right: -20px;
+padding: 20px;
+color: antiquewhite;
+border-radius: 30px;
 }
-.hit{
-    position: absolute;
-    top: -20px;
-    left: -20px;
+.sales { 
+width: 120px;
+position: absolute;
+right: -10px;
 }
-h1::before{
-    display: inline-block;
-    margin-right:20px;
-    content: url(https://i.ibb.co/SJqW6YF/award-8207550-1280-1.png);
+h1::before {
+content: url(https://i.ibb.co/qmKZGwt/media-774068-1280.png);
+margin-right: 20px;
 }
-h1::after{
-    display: inline-block;
-    margin-left:0px;
-    content: url(https://i.ibb.co/SJqW6YF/award-8207550-1280-1.png);
+h1::after {
+content: url(https://i.ibb.co/qmKZGwt/media-774068-1280.png);
+margin-left: 20px;
 }
-.address::before {
-   content: url(https://i.ibb.co/0ht3w3N/image-2.png); 
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    margin-right: 20px;
-}
-
 .tel::before {
-    content: url(https://i.ibb.co/nPT4pcQ/image-2-2.png);
-    width: 35px;
-    height: 35px;
-    display: inline-block;
+    content: url(https://i.ibb.co/g4FJCB9/image-2.png); 
     margin-right: 15px;
 }
-.nav-link:hover{
-   font-size: 34px;
-    color: li;
-    text-decoration: none;
-    display: block;
+.address::before {
+ content: url(https://i.ibb.co/MZMmdc5/image-2-6.png);
+    margin-right: 20px;
 }
-.post:hover .article-but {
-    border: 5px solid #133aac;
-    background-color: white;
-    color: #133aac;
-}
-.post:hover{
-    background-color: #133aac;
+.button:hover{
+background-image: url(https://img.freepik.com/premium-photo/abstract-colorful-texture-background-ai-generative_458817-2420.jpg?w=2000); 
+    background-size: cover;
 }
